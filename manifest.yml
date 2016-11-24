@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: streamscloud-NYCTraffic-chl
+  host: streamscloud-NYCTraffic-chl
+  disk_quota: 1024M
+  services:
+  - Streaming Analytics-pw
